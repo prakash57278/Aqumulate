@@ -17,23 +17,20 @@
         </activity>
         <activity
             android:name=".Transaction"
-            android:label="@string/Transaction">
-        </activity>
+            android:label="@string/Transaction"></activity>
         <activity
             android:name=".Portfolio"
-            android:label="Portfolio">
-        </activity>
+            android:label="Portfolio"></activity>
         <activity
             android:name=".Help"
-            android:label="Help">
-        </activity>
+            android:label="Help"></activity>
         <activity
             android:name=".EditAccount"
-            android:label="Edit Account">
-        </activity>
-        <activity android:name=".AddAccount"
-            android:label="Add Account">
-        </activity>
+            android:label="Edit Account"></activity>
+        <activity
+            android:name=".AddAccount"
+            android:label="Add Account"></activity>
+        <activity android:name=".AssestsLiabilities"></activity>
     </application>
 
 </manifest>
