@@ -50,7 +50,7 @@ public class NavigationDrawerFragment extends Fragment {
         List<Information> data = new ArrayList<>();
         int[] icons = {R.drawable.ic_menu_gallery, R.drawable.ic_menu_camera, R.drawable.ic_menu_send,
                 R.drawable.ic_menu_gallery, R.drawable.ic_menu_manage};
-        String[] titles = {"Dashboard", "Portfolio", "Transaction", "AddAccounts", "Help"};
+        String[] titles = {"Dashboard","Assests/Liabilities" ,"Portfolio", "Transaction", "AddAccounts", "Help"};
         for (int i = 0; i < 5; i++) {
             Information current = new Information();
             current.iconId = icons[i];
@@ -85,15 +85,18 @@ public class NavigationDrawerFragment extends Fragment {
                         startActivity(new Intent(getActivity(),MainActivity.class));
                         break;
                     case 1:
-                        startActivity(new Intent(getActivity(),Portfolio.class));
+                        startActivity(new Intent(getActivity(),AssestsLiabilities.class));
                         break;
                     case 2:
-                        startActivity(new Intent(getActivity(),Transaction.class));
+                        startActivity(new Intent(getActivity(),Portfolio.class));
                         break;
                     case 3:
-                        startActivity(new Intent(getActivity(),AddAccount.class));
+                        startActivity(new Intent(getActivity(),Transaction.class));
                         break;
                     case 4:
+                        startActivity(new Intent(getActivity(),AddAccount.class));
+                        break;
+                    case 5:
                         startActivity(new Intent(getActivity(),Help.class));
                         break;
 

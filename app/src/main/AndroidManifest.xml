@@ -17,20 +17,34 @@
         </activity>
         <activity
             android:name=".Transaction"
-            android:label="@string/Transaction"></activity>
+            android:label="@string/Transaction">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+                </activity>
         <activity
             android:name=".Portfolio"
-            android:label="Portfolio"></activity>
+            android:label="Portfolio" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+        </activity>
         <activity
             android:name=".Help"
-            android:label="Help"></activity>
+            android:label="Help" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+        </activity>
         <activity
             android:name=".EditAccount"
-            android:label="Edit Account"></activity>
+            android:label="Edit Account">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+        </activity>
         <activity
             android:name=".AddAccount"
-            android:label="Add Account"></activity>
-        <activity android:name=".AssestsLiabilities"></activity>
+            android:label="Add Account" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+        </activity>
+        <activity android:name=".AssestsLiabilities"
+            android:label="Assests/Liabilities">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.intern.aqumulate.aqumulate.MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

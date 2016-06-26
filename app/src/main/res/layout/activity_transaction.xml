@@ -7,4 +7,19 @@
     <include
         android:id="@+id/app_bar"
         layout="@layout/app_bar" />
+
+    <com.intern.aqumulate.aqumulate.tabs.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_below="@id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#e5e5e5" >
+    </android.support.v4.view.ViewPager>
 </RelativeLayout>
